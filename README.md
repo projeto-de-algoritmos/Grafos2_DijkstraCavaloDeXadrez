@@ -1,41 +1,42 @@
-!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !! 
+# Grafos2 - Dijkstra Genérico & Movimento Mínimo de Peça de Xadrez 
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final. 
- 
- !! Não coloque os nomes dos alunos no título do repositório. Exemplo de título correto: GRAFOS2 - Labirinto do Minotauro !!
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-Número da Lista: X<br>
-Conteúdo da Disciplina: XXXXXXXXXX<br>
+Número da Lista: 2
+Conteúdo da Disciplina: Algoritmos Ambiciosos para Grafos
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0010195 |  João Vítor Morandi |
+| 160006210  | Francisco Heronildo |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+A implementção do algoritmo de Dijktra para melhor intedimento do conteúdo ministrado juntamente com um código que calcula o menor caminho percorrido por um cavalode xadrez para fixacção do conteúdo. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-Linguagem: xxxxxx<br>
-Framework: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+Linguagem: Python3<br>
+Framework: Nenhuma<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Sistema Operacional indicado: Debian e derivados
+
+Via Terminal siga os passas abaixo
+
+Clone o Repositório:
+
+`$ git clone https://github.com/projeto-de-algoritmos/grafo_1_Francisco_Joao.git`
+
+Acesse o diretório:
+
+`$ cd Trabalho-grafos-2-Francisco-Joao/`
+
+Dijkstra:
+`$ python3 dijkstra.py` 
+
+Cavalo de Xadrez:
+`$ python3 cavalo_xadrez.py`
+
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
