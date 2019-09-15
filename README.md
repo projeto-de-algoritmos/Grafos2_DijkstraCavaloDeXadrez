@@ -1,4 +1,4 @@
-# Grafos2 - Dijkstra Genérico & Movimento Mínimo de Peça de Xadrez 
+# Grafos2 - Dijkstra Topologia CavaloDeXadrez
 
 Número da Lista: 2
 Conteúdo da Disciplina: Algoritmos Ambiciosos para Grafos
@@ -13,7 +13,16 @@ Conteúdo da Disciplina: Algoritmos Ambiciosos para Grafos
 A implementção do algoritmo de Dijktra para melhor intedimento do conteúdo ministrado juntamente com um código que calcula o menor caminho percorrido por um cavalode xadrez para fixacção do conteúdo. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Cavalo de Xadrez
+![cavalo](https://imgur.com/DJdMELM)
+
+### Dijkstra
+![ds](https://imgur.com/bHB5dBI)
+
+### Ordem Topológica
+![topo](https://imgur.com/Xbt598N)
+
 
 ## Instalação 
 Linguagem: Python3<br>
@@ -25,7 +34,7 @@ Via Terminal siga os passas abaixo
 
 Clone o Repositório:
 
-`$ git clone https://github.com/projeto-de-algoritmos/grafo_1_Francisco_Joao.git`
+`$ git clone https://github.com/projeto-de-algoritmos/Grafos2_DijkstraTopologiaCavaloDeXadrez.git`
 
 Acesse o diretório:
 
@@ -37,6 +46,6 @@ Dijkstra:
 Cavalo de Xadrez:
 `$ python3 cavalo_xadrez.py`
 
+Ordem Topológica:
+`$ python3 ordem_topologica.py`
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
