@@ -1,48 +1,41 @@
-# Buscas em Grafos
+!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !! 
 
-## Sobre
+Temas:
+ - Grafos1
+ - Grafos2
+ - PD
+ - D&C
+ - Greed
+ - Final. 
+ 
+ !! Não coloque os nomes dos alunos no título do repositório. Exemplo de título correto: GRAFOS2 - Labirinto do Minotauro !!
+ 
+ (Apague essa seção)
 
-Este repositório destinado ao segundo projeto relacionado a grafos da disciplina de Projetos de Algoritmos da Universidade de Brasília - Campus Gama do período do 2º semestre de 2019.
+# NomedoProjeto
 
-## Contribuidores
+Número da Lista: X<br>
+Conteúdo da Disciplina: XXXXXXXXXX<br>
 
-|Matrícula|Nome|GitHub|
-|---------|----|------|
-|160006210| Francisco Heronildo|[@FranciscoHeronildo](github.com/FranciscoHeronildo)|
-|160010195| João Vítor Morandi|[@joaovitorml](github.com/joaovitorml)|
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Tópico do Projeto
+## Sobre 
+Descreva os objetivos do seu projeto e como ele funciona. 
 
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Tempo de Execução
+## Instalação 
+Linguagem: xxxxxx<br>
+Framework: (caso exista)<br>
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
-|Casos de Testes|BFS|DFS|
-|---------------|---|---|
-|1º|0.000317|0.000154|
-|2º|0.000343|0.000055|
-|3º|0.000133|0.000063|
-|4º|0.000175|0.000018|
-|5º|0.000129|0.000008|
+## Uso 
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Executando
-
-### Debian
-
-#### Via Terminal
-
-Clone o Repositório:
-
-`$ git clone https://github.com/projeto-de-algoritmos/grafo_1_Francisco_Joao.git](https://github.com/projeto-de-algoritmos/Trabalho-grafos-2-Francisco-Joao.git`
-
-Acesse o diretório:
-
-`$ cd Trabalho-grafos-2-Francisco-Joao/Trabalho2`
-
-Código 1:
-`$ python3 bfs.py` 
-
-Código 2:
-`$ python3 dfs.py`
-
-Plotagem de um gráfico exemplo como imagem:
-`$ python3 plotGraph.py`
+## Outros 
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
