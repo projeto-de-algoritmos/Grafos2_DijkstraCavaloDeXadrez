@@ -15,13 +15,15 @@ A implementção do algoritmo de Dijktra para melhor intedimento do conteúdo mi
 ## Screenshots
 
 ### Cavalo de Xadrez
-![cavalo](https://imgur.com/DJdMELM)
+
+![cavalo](https://i.imgur.com/DJdMELM.png)
 
 ### Dijkstra
-![ds](https://imgur.com/bHB5dBI)
+
+![ds](https://i.imgur.com/bHB5dBI.png)
 
 ### Ordem Topológica
-![topo](https://imgur.com/Xbt598N)
+![topo](https://i.imgur.com/Xbt598N.png)
 
 
 ## Instalação 
