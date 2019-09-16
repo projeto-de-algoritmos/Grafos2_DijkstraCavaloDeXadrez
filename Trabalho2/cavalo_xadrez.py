@@ -12,6 +12,9 @@ def vaiCavalo(origem, destino):
    while True:
       proximosPassos = []
       for passo in passos:
+         print("Passo: ", passo)
+         print("Passos:", passos)
+         print("\n")
          # movimento em L percorrido pelo cavalo
          for movimento in [[-1,-2],[-2,-1],[-2,1],[-1,2],[1,2],[2,1],[2,-1],[1,-2]]:
             x,y = passo[0]+movimento[0], passo[1]+movimento[1]
@@ -23,7 +26,8 @@ def vaiCavalo(origem, destino):
       passos = proximosPassos
 
 movimentosNecessarios = vaiCavalo([1,1],[1,2])
-print(movimentosNecessarios)
+print("Movimentos necessarios: ", movimentosNecessarios)
 
 fim = time.time()
-print("\ntempo de execucao:", fim - inicio)
+print("\n")
+print("Tempo de execucao:", fim - inicio)

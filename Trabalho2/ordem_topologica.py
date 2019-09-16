@@ -5,7 +5,7 @@ inicio = time.time()
 
 class Grafo: 
     def __init__(self,vertices): 
-        #dicionário contendo lista de adjacências
+        #dicionario contendo lista de adjacencias
         self.grafo = defaultdict(list)
         #numero de vertice
         self.V = vertices 
@@ -15,32 +15,32 @@ class Grafo:
         self.grafo[u].append(v) 
   
     #funcao recursiva usada por topologicaSort
-    def topologicaRecu(self,v,visitado,pilha): 
+    def topologicaRecursiva(self,v,visitado,vetor): 
   
-        #marcar o nó atual como visitado
+        #marcar o no atual como visitado
         visitado[v] = True
   
-        #repetir para todos os vértices adjacentes a esse vértice
+        #repetir para todos os vertices adjacentes a esse vertice
         for i in self.grafo[v]: 
             if visitado[i] == False: 
-                self.topologicaRecu(i,visitado,pilha) 
+                self.topologicaRecursiva(i,visitado,vetor) 
   
-        #empurra o vértice atual para a pilha, que armazena o resultado 
-        pilha.insert(0,v) 
+        #empurra o vertice atual para a vetor, que armazena o resultado 
+        vetor.insert(0,v) 
   
     # executa a classificacao topologica
-    # topologicaRecu() 
+    # topologicaRecursivarsiva() 
     def topologicaSort(self): 
         #marca os vertice nao visitados
         visitado = [False]*self.V 
-        pilha =[] 
+        vetor =[] 
   
         #ordena os vertices um por um
         for i in range(self.V): 
             if visitado[i] == False: 
-                self.topologicaRecu(i,visitado,pilha) 
+                self.topologicaRecursiva(i,visitado,vetor)
+                print("Vetor: ", vetor)
 
-        print (pilha) 
   
 g = Grafo(6) 
 g.addEdge(5, 2); 
@@ -51,7 +51,9 @@ g.addEdge(2, 3);
 g.addEdge(3, 1); 
   
 print("\n Topologia do grafo fornecido:")
+print("\n")
 g.topologicaSort()
 
 fim = time.time()
-print("\ntempo de execucao:", fim - inicio)
+print("\n")
+print("Tempo de execucao:", fim - inicio)
