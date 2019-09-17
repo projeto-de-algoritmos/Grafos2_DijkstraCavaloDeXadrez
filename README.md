@@ -1,4 +1,4 @@
-# Grafos2 - Dijkstra Topologia CavaloDeXadrez
+# Grafos2 - Dijkstra Cavalo de Xadrez
 
 Número da Lista: 2
 Conteúdo da Disciplina: Algoritmos Ambiciosos para Grafos
@@ -10,26 +10,23 @@ Conteúdo da Disciplina: Algoritmos Ambiciosos para Grafos
 | 160006210  | Francisco Heronildo |
 
 ## Sobre 
-A implementção do algoritmo de Dijktra para melhor intedimento do conteúdo ministrado juntamente com um código que calcula o menor caminho percorrido por um cavalode xadrez para fixacção do conteúdo. 
+A implementção do algoritmo de Dijktra e Ordernação Topologica para melhor intedimento do conteúdo ministrado juntamente com um código que calcula o menor caminho percorrido por uma peça de xadrez para fixacção do conteúdo. 
 
 ## Screenshots
 
-### Cavalo de Xadrez
-
-![cavalo](https://i.imgur.com/DJdMELM.png)
-
 ### Dijkstra
-
-![ds](https://i.imgur.com/bHB5dBI.png)
+![Imgur](https://i.imgur.com/oVrM2UE.png)
 
 ### Ordem Topológica
-![topo](https://i.imgur.com/Xbt598N.png)
+![Imgur](https://i.imgur.com/2fTNeqq.png)
 
+### Cavalo de Xadrez
+![Imgur](https://i.imgur.com/moTfZXt.png)
+![Imgur](https://i.imgur.com/51UxERi.png)
 
 ## Instalação 
 Linguagem: Python3<br>
 Framework: Nenhuma<br>
-
 Sistema Operacional indicado: Debian e derivados
 
 Via Terminal siga os passas abaixo
@@ -43,11 +40,14 @@ Acesse o diretório:
 `$ cd Trabalho-grafos-2-Francisco-Joao/`
 
 Dijkstra:
-`$ python3 dijkstra.py` 
-
-Cavalo de Xadrez:
-`$ python3 cavalo_xadrez.py`
+`$ python3 dijkstra.py`
 
 Ordem Topológica:
 `$ python3 ordem_topologica.py`
+
+Cavalo de Xadrez - Passos:
+`$ python3 cavalo_xadrez_passo.py`
+
+Cavalo de Xadrez - Dijkstra:
+`$ python3 cavalo_xadrez_movimento.py`
 
