@@ -50,9 +50,25 @@ g.addEdge(4, 1);
 g.addEdge(2, 3); 
 g.addEdge(3, 1); 
   
-print("\n Topologia do grafo fornecido:")
+print("\n Topologia do grafo 1:")
 print("\n")
 g.topologicaSort()
+
+g1 = Grafo(10) 
+g1.addEdge(5, 1); 
+g1.addEdge(5, 0); 
+g1.addEdge(4, 3); 
+g1.addEdge(4, 2); 
+g1.addEdge(3, 2); 
+g1.addEdge(3, 1);
+g1.addEdge(8, 7);
+g1.addEdge(6, 9);
+g1.addEdge(6, 5);
+g1.addEdge(9, 0);
+
+print("\n Topologia do grafo 2:")
+print("\n")
+g1.topologicaSort()
 
 fim = time.time()
 print("\n")
